@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageAdminFragment">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ManageAffiliateFragment">
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".LoginFragment">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".RegisterActivity">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="402dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="username"
+
+                    android:hint="@string/hintUser"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtFragHeading" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="402dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="password"
+                    android:hint="@string/hintPassword"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    app:layout_constraintBottom_toTopOf="@+id/btn_update"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="392dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/material_dynamic_primary10"
+                    android:text="@string/btnUpdateEvents"
+                    android:textColor="@color/colorOnPrimary"
+                    app:layout_constraintBottom_toTopOf="@+id/btn_delete"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="392dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/material_dynamic_primary10"
+                    android:text="@string/btnDelEvents"
+                    android:textColor="@color/colorOnPrimary"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.5" />
+
+                <TextView
+                    android:id="@+id/txtFragHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorSecondaryVariant"
+                    android:text="@string/btnAdmin"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorOnPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+</FrameLayout>
