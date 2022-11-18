@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Itadab4_jwfy27zw2</string>
+    <string name="databaseName">AYIGConnect</string>
+    <string name="databaseTable">Users</string>
+    <string name="ID">id</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="appTitle">Youth Connect</string>
+    <string name="hintUser">username</string>
+    <string name="hintName">Name</string>
+    <string name="hintSurname">Surname</string>
+    <string name="hintEmail">Email Address</string>
+    <string name="hintPhone">Phone Number</string>
+    <string name="hintPassword">Password</string>
+
+    <string name="btnReg">Register</string>
 </resources>
