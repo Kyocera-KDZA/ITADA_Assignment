@@ -15,7 +15,7 @@
 
     <string name="btnReg">Register</string>
     <string name="btnAffiliate">Affiliate</string>
-    <string name="btnAdmin">Administrator</string>
+    <string name="btnAdmin">Admin</string>
     <string name="btnAllData">All Data</string>
     <string name="btnLogin">Login</string>
     <string name="btnViewEvents">View Events and Activities</string>

@@ -6,18 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ManageAffiliateFragment">
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".LoginFragment">
-
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            tools:context=".RegisterActivity">
+            android:orientation="vertical">
 
 
             <EditText
@@ -78,5 +70,3 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
-
-</FrameLayout>
