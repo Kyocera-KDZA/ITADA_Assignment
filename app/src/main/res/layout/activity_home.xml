@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+tools:context=".HomeActivity">
+
+<LinearLayout
+    android:id="@+id/line1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:background="#fff"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:text="@string/btnReg"
+        android:textColor="@color/black" />
+
+
+    <View
+        android:background="#fff"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/btn_Affiliate"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:text="@string/btnAffiliate"
+        android:textColor="@color/black" />
+
+
+    <View
+        android:background="#fff"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/btn_Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:text="@string/btnAdmin"
+        android:textColor="@color/black" />
+
+    <View
+        android:background="#fff"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:text="@string/btnLogin"
+        android:textColor="@color/black" />
+    <View
+        android:background="#fff"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/data_list_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/btnAllData"
+        android:textColor="#fff" />
+
+    <TextView
+    android:id="@+id/all_data_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:padding="10dp"
+    android:textColor="#000"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="65dp" />
+</LinearLayout>

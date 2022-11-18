@@ -14,4 +14,9 @@
     <string name="hintPassword">Password</string>
 
     <string name="btnReg">Register</string>
+    <string name="btnAffiliate">Affiliate</string>
+    <string name="btnAdmin">Administrator</string>
+    <string name="btnAllData">All Data</string>
+    <string name="btnLogin">Login</string>
+
 </resources>
